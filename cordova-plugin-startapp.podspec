@@ -31,7 +31,7 @@ This pod is only a ios fork for the https://github.com/Wininsoft/com.lampa.start
 
   s.ios.deployment_target = '9.3'
 
-  s.source_files = 'src/ios/*'
+  s.source_files = 'src/ios/*.{h,m}'
 
   s.platform = :ios, '9.3'
   s.requires_arc = true
